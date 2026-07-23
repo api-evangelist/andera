@@ -1,8 +1,22 @@
 aid: andera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/andera.png
 name: Andera
-description: Andera is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Andera was an online account-opening / digital-banking software company. Its domain andera.com
+  now 301-redirects to Bottomline Technologies' digital banking product (bottomline.com/us/financial-institutions/digital-banking),
+  indicating the company has been acquired and folded into Bottomline; no independent Andera developer,
+  API, or documentation surface exists. Surfaced as a portfolio-company lead of lightspeed-venture-partners
+  and added to the API Evangelist network as a stub; enrichment found no live standalone API surface to build on.
 url: https://raw.githubusercontent.com/api-evangelist/andera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,6 +24,16 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired-defunct
+x-enrichment:
+  probed: '2026-07-17'
+  finding: no-independent-api-surface
+  evidence:
+  - {host: 'https://andera.com', status: 301, redirect: 'https://www.bottomline.com/us/financial-institutions/digital-banking'}
+  - {host: 'https://www.andera.com', status: 301, redirect: 'https://www.bottomline.com/us/financial-institutions/digital-banking'}
+  - {host: 'https://developer.andera.com', status: 000, note: does-not-resolve}
+  - {host: 'https://api.andera.com', status: 000, note: does-not-resolve}
+  - {host: 'https://docs.andera.com', status: 000, note: does-not-resolve}
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
