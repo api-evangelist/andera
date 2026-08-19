@@ -34,7 +34,7 @@ x-enrichment:
   - {host: 'https://developer.andera.com', status: 000, note: does-not-resolve}
   - {host: 'https://api.andera.com', status: 000, note: does-not-resolve}
   - {host: 'https://docs.andera.com', status: 000, note: does-not-resolve}
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
