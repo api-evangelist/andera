@@ -35,7 +35,7 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
-x-status: acquired-defunct
+x-status: defunct
 x-enrichment:
   probed: '2026-07-17'
   finding: no-independent-api-surface
@@ -50,6 +50,7 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
